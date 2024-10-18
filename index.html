@@ -13,49 +13,85 @@
     <h2>Índice</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="lists">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="ref">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
        Não esqueça de colocar links para outros sites e também de formatar o texto com 
        <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
+      <p>
+       No desenvolvimento da web, "lado do cliente" refere-se a tudo em um aplicativo web que é exibido ou ocorre no cliente (dispositivo do usuário final).
+       Isso inclui o que o usuário vê, como texto, imagens e o resto da interface de usuário, junto com quaisquer ações que um aplicativo execute no navegador do usuário.
+      </p>
+      <p>
+       O lado do cliente também é conhecido como front-end, embora esses dois termos não signifiquem exatamente a mesma coisa.
+       O lado do cliente se refere apenas ao local onde os processos são executados, enquanto o front-end se refere aos tipos de processos que são executados no lado do cliente.
+      </p>
     <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p><a href="#">Voltar ao menu</a></p>
 
-    <h2>O que são <i>Clients</i>?</h2>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
        Não esqueça de colocar links para outros sites e também de formatar o texto com 
        <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
+       <p>
+       Muito parecido com o lado do cliente, o "lado do servidor" significa tudo o que acontece no servidor, em vez de no cliente.
+       No passado, quase toda a lógica de negócios era executada no lado do servidor e isso incluía renderizar páginas da web dinâmicas, interagir com bancos de dados, autenticação de identidade e notificações push.
+       </p>
+       <p>
+         Como com "front-end" e "lado do cliente", back-end também é um termo para os processos que ocorrem no servidor, embora back-end se refira apenas aos tipos de processos e lado do servidor se refira ao local onde os processos são executados.
+       </p>
     <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p><a href="#">Voltar ao menu</a></p>
 
-    <h2>O que são <i>Servers</i>?</h2>
+    <h2 id="html">Como é uma estrutura básica de um HTML?</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
        Não esqueça de colocar links para outros sites e também de formatar o texto com 
        <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
+      <p>
+         <ul>
+            <li>&lt;main&gt; é para o conteúdo único dessa página.Use &lt;main&gt; apenas uma vez por página, e o coloca diretamente dentro do &lt;body&gt;. Não é ideal aninhar ele dentro de qualquer outro elemento senão o elemento &lt;body&gt;.</li><br>
+            <li>&lt;article&gt; inclui um bloco de conteúdo relacionado o qual faz sentido por si só, sem o restante da página (por exemplo, uma postagem singular dum blog).</li><br>
+            <li>&lt;section&gt; é similar com &lt;article&gt;, mas ele é mais para agrupar uma única parte de página que constitui em um único pedaço de funcionalidade (por exemplo, um minimapa, ou um conjunto de manchetes e resumo). É considerado boa prática começar cada seção com um título; observe também que você pode dividir um &lt;article&gt;s em diferentes &lt;section&gt;s, ou &lt;section&gt;s em diferentes &lt;article&gt;s, dependendo do contexto.</li><br>
+            <li>&lt;aside&gt; é para conteúdo que não está relacionados diretamente com os conteúdos principais, mas que podem providenciar informações complementares a esses (entradas de glossários, biografia do autor, links relacionados, etc.).</li><br>
+            <li>&lt;header&gt; representa um grupo de conteúdo introdutório. Se ele for um elemento filho do &lt;body&gt;, Ele é um header global da página do site, mas se for um elemento filho de um &lt;article&gt; ou &lt;section&gt;, é definido como um header específico para essa seção ( tenta não confundir isso com títulos e cabeçalhos).</li><br>
+            <li>&lt;nav&gt; contém a funcionalidade principal de navegação da página. Links secundários, etc., não iria na navegação</li><br>
+            <li>&lt;footer&gt; representa um grupo de conteúdo final da página.</li><br>
+         </ul>
+      </p>
     <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p><a href="#">Voltar ao menu</a></p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
+    <h2 id="lists">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
        Não esqueça de colocar links para outros sites e também de formatar o texto com 
        <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
+      <p>
+       O Elemento HTML &lt;ol&gt; (ou Elemento HTML de lista ordenada) representa uma lista de itens ordenados.
+       De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede, que pode ser de qualquer tipo, como numerais, letras, algarismos romanos, ou simples símbolos.
+      </p>
+      <p>
+       O elemento HTML &lt;ul&gt; (ou elemento HTML de Lista desordenada) representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes.
+       Caracteristicamente, os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, como um ponto, um círculo, ou um quadrado.
+      </p>
+      <p>
+         Ambos os elementos &lt;ol&gt; e &lt;ul&gt;, representam uma lista de itens. Diferem porque, com o elemento &lt;ol&gt;, a ordem é significativa. Como regra de ouro para determinar qual deles usar, tente mudar a ordem dos itens da lista; se a significação for alterada, o elemento &lt;ol&gt; deve ser utilizado, senão o elemento &lt;ul&gt; é adequado.
+      </p>
     <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p><a href="#">Voltar ao menu</a></p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
+    <h2 id="ref">Links de referências</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="https://dio.me" target="_blank">https://dio.me</a></li>
+        <li><a href="https://w3c.org" target="_blank">https://w3c.org</a></li>
+        <li><a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/" target="_blank">https://www.cloudflare.com</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure" target="_blank">https://developer.mozilla.org</a></li>
     </ul>
 
 </body>
